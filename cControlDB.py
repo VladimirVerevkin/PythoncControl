@@ -26,7 +26,7 @@ class DBcControl:
         self.connection.close()
         return result
 
-    # ************************ методы для работы с таблицой sensors ******************************************
+    # ****** ****************** методы для работы с таблицой sensors ******************************************
 
     # заполнить таблицу sensors значениями по умолчанию
     def fill_in_table_sensors(self, con='not_conn', set_Temp=0, set_Humid=100, set_Rele='off', set_comment=''):
